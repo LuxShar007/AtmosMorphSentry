@@ -1,55 +1,80 @@
-# <p align="center"> <img src="AtmosSentry.png" width="100" height="100"><br>AtmosMorphSentry </p>
+# <p align="center"> <img src="app_logo.png" width="120" height="120"><br>AtmosMorphSentry </p>
 
 <p align="center">
-  <strong>Achievement Unlocked: Robotics Domain 2025-26</strong><br>
-    <em>"This is just the first 0.1% of the journey into Robotics."</em>
-    </p>
+  <strong>🏆 Achievement Unlocked: Robotics Domain 2025-26</strong><br>
+  <em>"This is just the first 0.1% of the journey into Robotics."</em>
+</p>
 
-    ---
+---
 
-    ## 🌪️ Overview
-    **[span_0](start_span)AtmosMorphSentry** is a high-fidelity atmospheric dashboard and hardware integration project developed as part of the **GSTian Development Programme** in the Robotics Domain at **SIES Graduate School of Technology**[span_0](end_span). 
+## 🌪️ Project Overview
+**[span_0](start_span)AtmosMorphSentry** is a high-fidelity atmospheric dashboard and hardware integration project developed during the **GSTian Development Programme** at **SIES Graduate School of Technology**[span_0](end_span). 
 
-    The project bridges the gap between physical environmental sensing and high-performance digital visualization by using a magnetic interface to trigger complex 3D data morphing sequences.
+This project demonstrates the seamless handshake between physical sensors and high-performance software, turning real-world environmental data into an immersive visual experience.
 
-    ## 💎 Key Features
-    * **Physical-to-Digital Trigger:** Utilizes a Hall Effect sensor on an Arduino-based circuit to cycle through modes via magnetic swiping.
-    * **144Hz Particle Engine:** Custom 3D vortex system built in Python/Pygame, optimized for high-refresh-rate displays like the Asus TUF A17.
-    * **Dual-API Real-Time Telemetry:** Concurrent fetches for Mumbai's Temperature, Wind Speed, and Air Quality Index (AQI).
-    * **Negative-Space Rendering:** UI logic where data strings are rendered as "voids" within a system of 4,000 active particles for maximum legibility.
-    * **Hard-coded Atmosphere:** Integrated Spotify metadata featuring *"St. Chroma"* by Tyler, The Creator.
+### 💎 Key Features
+* **Physical-to-Digital Trigger:** Utilizes a **Hall Effect sensor** on an Arduino-based circuit to cycle through modes via magnetic swiping.
+* **144Hz Particle Engine:** A custom 3D vortex system built in Python/Pygame, optimized for high-refresh-rate displays like the **Asus TUF A17**.
+* **Dual-API Real-Time Telemetry:** Concurrent fetches for Mumbai's Temperature, Wind Speed, and Air Quality Index (AQI).
+* **Negative-Space Rendering:** UI logic where data strings are rendered as "voids" within a system of 4,000 active particles for maximum legibility.
+* **Integrated Experience:** Hard-coded Spotify metadata featuring **"St. Chroma"** by Tyler, The Creator.
 
-    ---
+---
 
-    ## 🛠️ Technical Stack
+## 🖥️ Also Included: Smart Desk Monitor
+As part of this robotics journey, I also developed the **Smart Desk Monitor**, focusing on:
+* **Low-Latency Feedback:** Streamlined hardware-to-software data loops.
+* **Workspace Awareness:** Real-time environmental tracking for optimized desk setups.
 
-    ### **Software**
-    * **Python 3.10+**: Core engine logic.
-    * **Pygame**: 3D particle physics and coordinate-based rendering.
-    * **PySerial**: Low-latency hardware-to-software communication.
-    * **Requests/Threading**: Asynchronous API handling for zero-UI-lag.
+---
 
-    ### **Hardware**
-    * **Arduino Uno**: Main microcontroller on a GL-12 breadboard.
-    * **Hall Effect Sensor**: Magnetic field detection for UI interaction.
-    * **Baud Rate**: 115200 for high-speed serial data transfer.
+## 🛠️ Technical Stack
 
-    ---
+### **Software**
+* **Python 3.10+**: Core engine logic.
+* **Pygame**: 3D particle physics and coordinate-based rendering.
+* **PySerial**: Hardware-to-software communication.
+* **Requests & Threading**: Asynchronous API handling for a lag-free UI.
 
-    ## 🔌 Hardware Setup
+### **Hardware**
+* **Arduino Uno**: Main microcontroller on a GL-12 breadboard.
+* **Hall Effect Sensor**: Magnetic field detection for physical UI interaction.
+* **Baud Rate**: 115200 for high-speed serial data transfer.
+
+---
+
+## 🔌 Hardware Setup
 
 
 
-    To replicate the physical interface, wire your sensor as follows:
-    * **VCC**: 5V
-    * **GND**: Ground
-    * **OUT**: Digital Pin 2
+To replicate the physical interface, wire your sensor as follows:
+* **VCC**: 5V
+* **GND**: Ground
+* **OUT**: Digital Pin 2
 
-    ---
+---
 
-    ## ⚙️ Installation & Usage
+## ⚙️ Installation & Usage
 
-    1. **Clone the Repository:**
-       ```bash
-          git clone [https://github.com/YourUsername/AtmosMorphSentry.git](https://github.com/YourUsername/AtmosMorphSentry.git)
-          
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/YourUsername/AtmosMorphSentry.git](https://github.com/YourUsername/AtmosMorphSentry.git)
+
+
+2. Install Dependencies:
+   pip install pygame pyserial requests
+
+3.Flash the Firmware:
+Upload the provided firmware.ino file to your Arduino Uno.
+
+4. Launch the Sentry:
+Ensure your device is connected to COM10 and run:
+ python AtmosSentry.py
+
+🎓 Certification & Acknowledgments
+This project marks the completion of the GSTian Development Programme (Robotics Domain).  
+Institution: SIES Graduate School of Technology.  
+Academic Year: 2025-2026.  
+Certification presented to: Sharvin Mhatre.  
+Organization: SIES GST Student Council.  
+<p align="center">Developed by <strong>Sharvin Mhatre</strong></p>
