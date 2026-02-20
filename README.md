@@ -1,4 +1,4 @@
-# <p align="center"> <img src="AtmosSentry.ico" width="100" height="100"><br>AtmosMorphSentry </p>
+# <p align="center"> <img src="AtmosSentry.png" width="100" height="100"><br>AtmosMorphSentry </p>
 
 <p align="center">
   <strong>Achievement Unlocked: Robotics Domain 2025-26</strong><br>
