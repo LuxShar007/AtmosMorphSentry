@@ -60,13 +60,14 @@ To replicate the physical interface, wire your sensor as follows:
    git clone [https://github.com/YourUsername/AtmosMorphSentry.git](https://github.com/YourUsername/AtmosMorphSentry.git)
 
 2. Install Dependencies:
-  pip install pygame pyserial requests
+  **pip install pygame pyserial request**
 
 3. Flash the Firmware:
 Upload the provided firmware.ino file to your Arduino Uno.
 
 4. Launch the Sentry:
 Ensure your device is connected to COM10 and run:
+    **python AtmosSentry.py**
 
 🎓 Certification & Acknowledgments
 This project marks the completion of the GSTian Development Programme (Robotics Domain).
@@ -79,7 +80,11 @@ Certification presented to: Sharvin Mhatre.
 
 Organization: SIES GST Student Council.
 
-<p align="center">Developed by <strong>Sharvin Mhatre</strong></p>
-   python AtmosSentry.py
 
- 
+
+<p align="center">Developed by<strong>Sharvin Mhatre</strong></p>
+
+
+
+
+
