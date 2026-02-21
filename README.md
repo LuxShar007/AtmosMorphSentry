@@ -71,6 +71,12 @@ Ensure your device is connected to COM10 and run:
 
 **🎓 Certification & Acknowledgments**
 
+<p align="center">
+  <img src="Sharvin Mhatre.pdf_20260220_213723_0000.png" width="600" alt="Certificate">
+</p>
+
+
+
 This project marks the completion of the GSTian Development Programme (Robotics Domain).
 
 Institution: SIES Graduate School of Technology.
