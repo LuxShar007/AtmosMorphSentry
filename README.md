@@ -12,20 +12,26 @@
 ---
 
 ## 🌪️ Project Overview
-**AtmosMorphSentry** is a high-fidelity atmospheric dashboard and hardware integration project developed during the **GSTian Development Programme** at **SIES Graduate School of Technology**. 
+**AtmosMorphSentry** is a high-fidelity atmospheric dashboard and hardware integration system designed to bridge the gap between physical sensing and digital visualization. Developed as a cornerstone project for the GSTian Development Programme (Robotics Domain), it serves as a proof of concept for low-latency Human-Computer Interaction (HCI).
 
-This project demonstrates the seamless handshake between physical sensors and high-performance software, turning real-world environmental data into an immersive visual experience.
+The Core Mechanism
+The system employs a "Hardware Handshake" protocol via a 115200 baud serial connection. A magnetic Hall Effect sensor acts as the primary physical latch; once triggered, it initiates an asynchronous dual-API fetch sequence to retrieve real-time telemetry (AQI, Wind Speed, Temperature) for Mumbai City.
 
-### 💎 Key Features
-* **Physical-to-Digital Trigger:** Utilizes a **Hall Effect sensor** on an Arduino-based circuit to cycle through modes via magnetic swiping.
-* **144Hz Particle Engine:** A custom 3D vortex system built in Python/Pygame, optimized for high-refresh-rate displays like the **Asus TUF A17**.
-* **Dual-API Real-Time Telemetry:** Concurrent fetches for Mumbai's Temperature, Wind Speed, and Air Quality Index (AQI).
-* **Negative-Space Rendering:** UI logic where data strings are rendered as "voids" within a system of 4,000 active particles for maximum legibility.
-* **Integrated Experience:** Hard-coded Spotify metadata featuring **"St. Chroma"** by Tyler, The Creator.
+Visualization & Performance
+The backend, built on a custom 144Hz Particle Engine in Python, utilizes Negative-Space rendering to display telemetry. Rather than traditional text rendering, the system manages a field of 4,000 active particles that morph into geometric "voids" to display data, ensuring high-fidelity legibility on high-refresh-rate displays like the Asus TUF A17.
 
----
+Technical Stack
+**Microcontroller**: Arduino Uno (Serial-over-USB).
 
-## 🛠️ Technical Stack
+**Sensors**: Hall Effect (Magnetic Field Detection).
+
+**Engine**: Python 3.10+ (Pygame Core, Threading).
+
+**Data Layer**: OpenWeatherMap API (Weather + Air Pollution endpoints).
+
+**Aesthetics**: Hard-coded Spotify metadata integration featuring "St. Chroma" by Tyler, The Creator.
+
+## 🛠️ **Technical Stack**
 
 ### **Software**
 * **Python 3.10+**: Core engine logic.
