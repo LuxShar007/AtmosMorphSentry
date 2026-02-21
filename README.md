@@ -7,7 +7,7 @@
 
 
 
-<img src="IMG_20260220_003608730.jpg" width="600" alt="Hardware Setup">
+<img src="IMG_20260220_003608730.jpg" width="600" align="center" alt="Hardware Setup">
 
 ---
 
@@ -45,7 +45,7 @@ This project demonstrates the seamless handshake between physical sensors and hi
 ## 🔌 Hardware Setup
 
 
-<img src="IMG_20260220_003143768.jpg"  width="720" height="1280" alt="Hardware Setup">
+<img src="IMG_20260220_003143768.jpg"  width="720" height="1280" align="center" alt="Hardware Setup">
 
 
 
