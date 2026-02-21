@@ -5,6 +5,10 @@
   <em>"This is just the first 0.1% of the journey into Robotics."</em>
 </p>
 
+
+
+<img src="IMG_20260220_003608730.jpg" width="600" alt="Hardware Setup">
+
 ---
 
 ## 🌪️ Project Overview
@@ -20,11 +24,6 @@ This project demonstrates the seamless handshake between physical sensors and hi
 * **Integrated Experience:** Hard-coded Spotify metadata featuring **"St. Chroma"** by Tyler, The Creator.
 
 ---
-
-## 🖥️ Also Included: Smart Desk Monitor
-As part of this robotics journey, I also developed the **Smart Desk Monitor**, focusing on:
-* **Low-Latency Feedback:** Streamlined hardware-to-software data loops.
-* **Workspace Awareness:** Real-time environmental tracking for optimized desk setups.
 
 ---
 
@@ -44,6 +43,9 @@ As part of this robotics journey, I also developed the **Smart Desk Monitor**, f
 ---
 
 ## 🔌 Hardware Setup
+
+
+<img src="IMG_20260220_003143768.jpg"  width="720" height="1280" alt="Hardware Setup">
 
 
 
