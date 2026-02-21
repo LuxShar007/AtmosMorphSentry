@@ -5,14 +5,14 @@
   <em>"This is just the first 0.1% of the journey into Robotics."</em>
 </p>
 
-
-
-<img src="IMG_20260220_003608730.jpg" width="600" align="center" alt="Hardware Setup">
+<p align="center">
+  <img src="IMG_20260220_003608730.jpg" width="600" alt="Hardware Setup">
+</p>
 
 ---
 
 ## 🌪️ Project Overview
-**[span_0](start_span)AtmosMorphSentry** is a high-fidelity atmospheric dashboard and hardware integration project developed during the **GSTian Development Programme** at **SIES Graduate School of Technology**[span_0](end_span). 
+**AtmosMorphSentry** is a high-fidelity atmospheric dashboard and hardware integration project developed during the **GSTian Development Programme** at **SIES Graduate School of Technology**. 
 
 This project demonstrates the seamless handshake between physical sensors and high-performance software, turning real-world environmental data into an immersive visual experience.
 
@@ -25,8 +25,6 @@ This project demonstrates the seamless handshake between physical sensors and hi
 
 ---
 
----
-
 ## 🛠️ Technical Stack
 
 ### **Software**
@@ -36,7 +34,7 @@ This project demonstrates the seamless handshake between physical sensors and hi
 * **Requests & Threading**: Asynchronous API handling for a lag-free UI.
 
 ### **Hardware**
-* **Arduino Uno**: Main microcontroller on a GL-12 breadboard.
+* **Arduino Uno**: Main microcontroller on a **GL-12 breadboard**.
 * **Hall Effect Sensor**: Magnetic field detection for physical UI interaction.
 * **Baud Rate**: 115200 for high-speed serial data transfer.
 
@@ -44,10 +42,9 @@ This project demonstrates the seamless handshake between physical sensors and hi
 
 ## 🔌 Hardware Setup
 
-
-<img src="IMG_20260220_003143768.jpg"  width="720" height="1280" align="center" alt="Hardware Setup">
-
-
+<p align="center">
+  <img src="IMG_20260220_003143768.jpg" width="400" alt="Hardware Setup">
+</p>
 
 To replicate the physical interface, wire your sensor as follows:
 * **VCC**: 5V
@@ -62,21 +59,27 @@ To replicate the physical interface, wire your sensor as follows:
    ```bash
    git clone [https://github.com/YourUsername/AtmosMorphSentry.git](https://github.com/YourUsername/AtmosMorphSentry.git)
 
-
 2. Install Dependencies:
-   pip install pygame pyserial requests
+  pip install pygame pyserial requests
 
-3.Flash the Firmware:
+3. Flash the Firmware:
 Upload the provided firmware.ino file to your Arduino Uno.
 
 4. Launch the Sentry:
 Ensure your device is connected to COM10 and run:
- python AtmosSentry.py
 
 🎓 Certification & Acknowledgments
-This project marks the completion of the GSTian Development Programme (Robotics Domain).  
-Institution: SIES Graduate School of Technology.  
-Academic Year: 2025-2026.  
-Certification presented to: Sharvin Mhatre.  
-Organization: SIES GST Student Council.  
+This project marks the completion of the GSTian Development Programme (Robotics Domain).
+
+Institution: SIES Graduate School of Technology.
+
+Academic Year: 2025-2026.
+
+Certification presented to: Sharvin Mhatre.
+
+Organization: SIES GST Student Council.
+
 <p align="center">Developed by <strong>Sharvin Mhatre</strong></p>
+   python AtmosSentry.py
+
+ 
