@@ -69,7 +69,8 @@ Upload the provided firmware.ino file to your Arduino Uno.
 Ensure your device is connected to COM10 and run:
     **python AtmosSentry.py**
 
-🎓 Certification & Acknowledgments
+**🎓 Certification & Acknowledgments**
+
 This project marks the completion of the GSTian Development Programme (Robotics Domain).
 
 Institution: SIES Graduate School of Technology.
@@ -82,7 +83,7 @@ Organization: SIES GST Student Council.
 
 
 
-<p align="center">Developed by<strong>Sharvin Mhatre</strong></p>
+<p align="center">Developed by <strong>Sharvin Mhatre</strong></p>
 
 
 
