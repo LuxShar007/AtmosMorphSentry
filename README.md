@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="IMG_20260220_003608730.jpg" width="600" alt="Hardware Setup">
+  <img src="IMG_20260220_003608730.jpg" width="600" alt="Candid">
 </p>
 
 ---
